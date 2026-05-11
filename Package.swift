@@ -34,7 +34,7 @@ let package = Package(
         .testTarget(
             name: "LiveKitWakeWordTests",
             dependencies: ["LiveKitWakeWord"],
-            path: "Tests/LiveKitWakeWordTests",
+            path: "swift/Tests/LiveKitWakeWordTests",
             resources: [
                 .copy("Fixtures"),
             ]
